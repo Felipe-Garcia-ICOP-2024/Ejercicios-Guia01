@@ -10,5 +10,7 @@ public class Ejercicio3 {
         System.out.println("Tu frase es: " + frase);
         System.out.println("Tu frase en minúsculas: " + frase.toLowerCase());
         System.out.println("Tu frase en mayúsculas: " + frase.toUpperCase());
+
+        scanner.close();
     }
 }

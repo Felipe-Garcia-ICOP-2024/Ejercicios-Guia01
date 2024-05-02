@@ -8,5 +8,7 @@ public class Ejercicio2 {
         String nombre = scanner.next();
 
         System.out.println("Tu nombre es: " + nombre);
+
+        scanner.close();
     }
 }
